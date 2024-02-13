@@ -1,3 +1,43 @@
+#######################################################################
+#################     Mapping filter         ##########################
+####### removing reads mapped against axolotl and human genomes #######
+#######################################################################
+#Using it after quality-filer the data in the folder data_am
+tree QC
+#QR/
+#|-- M-X1M01_trim
+#|   |-- M-X1M01_1.fq.gz_trimming_report.txt
+#|   |-- M-X1M01_1_val_1.fq.gz
+#|   |-- M-X1M01_1_val_1_fastqc.html
+#|   |-- M-X1M01_1_val_1_fastqc.zip
+#|   |-- M-X1M01_2.fq.gz_trimming_report.txt
+#|   |-- M-X1M01_2_val_2.fq.gz
+#|   |-- M-X1M01_2_val_2_fastqc.html
+#|   `-- M-X1M01_2_val_2_fastqc.zip
+
+#It is necessary to have the human and axolotl genome indexed using bwa
+#inside the folder genomes_re
+#genomes_ref/
+#|-- GCA_002915635.3_AmbMex60DD_genomic.fna
+#|-- GCA_002915635.3_AmbMex60DD_genomic.fna.amb
+#|-- GCA_002915635.3_AmbMex60DD_genomic.fna.ann
+#|-- GCA_002915635.3_AmbMex60DD_genomic.fna.bwt
+#|-- GCA_002915635.3_AmbMex60DD_genomic.fna.pac
+#|-- GCA_002915635.3_AmbMex60DD_genomic.fna.sa
+#|-- GRCh38_latest_genomic.fna
+#|-- GRCh38_latest_genomic.fna.amb
+#|-- GRCh38_latest_genomic.fna.ann
+#|-- GRCh38_latest_genomic.fna.bwt
+#|-- GRCh38_latest_genomic.fna.pac
+#|-- GRCh38_latest_genomic.fna.sa
+
+##cd ref_genomes
+#Axolotl
+##bwa index GCA_002915635.3_AmbMex60DD_genomic.fna
+#Human
+##bwa index GRCh38_latest_genomic.fna
+##cd ../
+
 #Creating the directory where the mapped sequences were kept
 mkdir MAP
 
@@ -12,7 +52,9 @@ for i in $(ls data_am/ | grep -v '\.')
 do
 #Mapping against host
 bwa mem -t 20 \
+#reference genome
 genomes_ref/GCA_002915635.3_AmbMex60DD_genomic.fna \
+#reads quality-filtered inside QR folder from previous run
 QR/${i}_trim/${i}_1_val_1.fq.gz \
 QR/${i}_trim/${i}_2_val_2.fq.gz \
 > MAP/${i}_host_paired.bam

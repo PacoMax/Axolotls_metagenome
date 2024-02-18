@@ -54,7 +54,7 @@ do
 bwa mem -t 20 \
 #reference genome
 genomes_ref/GCA_002915635.3_AmbMex60DD_genomic.fna \
-#reads quality-filtered inside QR folder from previous run
+#reads quality-filtered inside QR folder from the previous run
 QR/${i}_trim/${i}_1_val_1.fq.gz \
 QR/${i}_trim/${i}_2_val_2.fq.gz \
 > MAP/${i}_host_paired.bam
@@ -90,7 +90,7 @@ samtools sort -n  MAP/${i}_human_unmap_unmap.bam -o MAP/${i}_human_unmap_unmap.s
 echo "$i" >> MAP/Stats_human.txt
 samtools flagstat MAP/${i}_human_unmap_unmap.sort >> MAP/Stats_human.txt
 #get R1 & R2
-bamToFastq -i MAP/${i}_human_unmap_unmap.sort -fq MAP/${i}_human_unmap.1.fastq -fq2 MAP/${i}_human_unmap.2.fastq
+bamToFastq -i MAP/${i}_human_unmap_unmap.sort -fq MAP/${i}_human_unmap_1.fastq -fq2 MAP/${i}_human_unmap_2.fastq
 
 
 rm MAP/${i}_human_unmap_unmap.bam

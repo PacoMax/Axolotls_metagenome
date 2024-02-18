@@ -10,14 +10,16 @@ export LANG=en_US.utf-8
 
 conda activate metawrap
 
+#folder for bins
 mkdir INBIN_am
-
+#folder for refined bins
+mkdir REBIN_am
 
 for i in $(ls MAP | grep "M" |cut -d'_' -f1 | sort | uniq)
 do
 
-
-#metabat2
+#Getting bins
+#using metabat2
 
 metawrap binning --universal \
 -t 30 \
@@ -29,7 +31,7 @@ MAP/${i}_human_unmap_1.fastq \
 MAP/${i}_human_unmap_2.fastq
 
 
-#maxbin2
+#using maxbin2
 
 metawrap binning --universal \
 -t 30 \
@@ -42,7 +44,7 @@ MAP/${i}_human_unmap_2.fastq
 
 
 
-#concoct
+#using concoct
 
 metawrap binning --universal \
 -t 30 \
@@ -54,5 +56,25 @@ MAP/${i}_human_unmap_1.fastq \
 MAP/${i}_human_unmap_2.fastq
 
 
+#Doing bin refining
+
+metawrap bin_refinement \
+-o REBIN_am/${i}_rebin \
+-t 30 \
+-m 100 \
+-A INBIN_am/${i}_inbin/metabat2_bins/ \
+-B INBIN_am/${i}_inbin/maxbin2_bins/ \
+-C INBIN_am/${i}_inbin/concoct_bins/ \
+-c 50 \
+-x 10
 
 done
+
+
+
+
+
+
+
+
+

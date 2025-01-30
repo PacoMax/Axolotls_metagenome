@@ -1,8 +1,8 @@
 # Axolotls_metagenome
-Scripts for processing and analyzing skin microbiome metagenomes from axolotls
+Scripts for processing and analyzing skin microbiome metagenomes from the neotenic axolotls
 
 ## Step 1
-Run QC.sh for filtering poor-quality reads and deleting adapters.
+Run QC.sh to filter poor-quality reads and delete adapters.
 
 Programs used:
 * trim galore version 6.7
@@ -10,7 +10,7 @@ Programs used:
     `QC.sh`
 
 ## Step 2
-Run MAP.sh for filtering reads from the host (axolotl) and human.
+Run MAP.sh to filter reads from the host (axolotl) and human.
 
 Programs used:
 * bwa version 7.17-r1188

@@ -56,8 +56,8 @@ Programs used:
 Run FUNCTIONS.sh to predict protein domains and assign them to specific functional categories.
 
 Programs used:
-* VirTaK. Available at https://github.com/AleCisMar/VirTaK
 * split_multi_fasta.py and get_pfam_functions.py. Available at https://github.com/AleCisMar/GenomicTools
+* VirTaK. Available at https://github.com/AleCisMar/VirTaK
 * HMMER 3.3.2
 * virsorter version 2.2.3
 * DRAM v1.5.0

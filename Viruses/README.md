@@ -65,13 +65,17 @@ After running FUNCTIONS1.sh, download protein HMMs from:
 * Anti-CRISPR-associated proteins https://github.com/boweny920/AcaFinder/tree/main/HMM/AcaHMMs
 * Antibiotic resistance genes http://dantaslab.wustl.edu/resfams/Resfams-full.hmm.gz
 
-Unpack if necessary and prepare the profile databases for hmmscan:
+Make sure to name AcaHMMs as AcaHMMs.hmm, and unpack Resfams-full.hmm.gz. Then execute hmmpress to prepare the profile databases for hmmscan:
 ```{bash, eval=FALSE, echo=TRUE}
 hmmpress AcaHMMs.hmm
 ```
 ```{bash, eval=FALSE, echo=TRUE}
 hmmpress Resfams-full.hmm
 ```
-*  HMMER 3.3.2
+
+Now, run FUNCTIONS2.sh.
+
+Programs used:
+* HMMER 3.3.2
 * virsorter version 2.2.3
 * DRAM v1.5.0

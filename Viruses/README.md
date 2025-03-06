@@ -79,3 +79,4 @@ Programs used:
 * HMMER 3.3.2
 * virsorter version 2.2.3
 * DRAM v1.5.0
+     `FUNCTIONS2.sh`

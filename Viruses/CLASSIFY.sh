@@ -29,3 +29,7 @@ conda activate vcontact2
 vcontact2 -r proteins.faa -p gene-to-genome.csv -o results
 
 conda deactivate
+
+# prepare output file for Cytoscape
+cd results
+sed '1i\Source,Target,Weight' c1.ntw | sed 's/ /,/g' > c1_ntw.csv

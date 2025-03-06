@@ -81,3 +81,5 @@ Programs used:
 * DRAM v1.5.0
 
      `FUNCTIONS2.sh`
+
+PanPhylo.py (executed in FUNCTIONS1.sh as part of the VirTaK pipeline) generates a domain count table for each genome (transposed_counts.txt). After assigning AMG, Anti-CRISPR-associated and Antibiotic resistance-associated categories (FUNCTIONS2.sh) to the domain_info_with_function.tsv file, we modified the transposed_counts.txt file to include categories instead of domain names. Such table (transposed_counts_heatmap_in.csv), along with a genome annotation table (contig_annotation.csv) where used as input for heatmap representation in R.

@@ -15,3 +15,5 @@ Run VIR_DETECT.sh to detect viral genomes in assembled contigs and evaluate geno
 Programs used:
 * VIBRANT v1.2.1
 * CheckV v0.9.0
+
+    `VIR_DETECT.sh`

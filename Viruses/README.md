@@ -46,6 +46,7 @@ Programs used:
 * vConTACT2 0.11.3
 
      `CLASSIFY.sh`
+
 After running CLASSIFY.sh output files c1_ntw.csv and genome_by_genome_overview.csv where used as input edge and node tables, respectively, for network visualization. 
 
 Programs used:

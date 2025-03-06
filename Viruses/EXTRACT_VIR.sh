@@ -29,3 +29,7 @@
 # NODE_29_length_35341_cov_10.260577_AM_X1_bin_4_strict
 # NODE_3_length_14900_cov_4.022195_AM_X3_bin_1_permissive
 # NODE_64_length_14526_cov_6.215171_AM_X3_bin_3_strict
+
+mkdir genomes
+
+seqkit grep -f list.txt vibrant/checkv/viruses.fna -o genomes/all_genomes.fna

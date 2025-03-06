@@ -45,4 +45,4 @@ Run CLASSIFY.sh to classify vMAGs with vcontact2.
 Programs used:
 * vConTACT2 0.11.3
 
-      `CLASSIFY`
+     `CLASSIFY.sh`

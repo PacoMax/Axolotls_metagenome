@@ -36,3 +36,12 @@ while read sample; do
 done < sample_names.txt
 
 conda deactivate
+
+# Create directory to store quast quality assesment of genome assembles
+mkdir quast
+
+conda activate quast
+
+quast *.fasta -o quast -t 20
+
+conda deactivate

@@ -50,4 +50,4 @@ Programs used:
 After running CLASSIFY.sh output files c1_ntw.csv and genome_by_genome_overview.csv where used as input edge and node tables, respectively, for network visualization. 
 
 Programs used:
-*Cytoscape 3.10.3
+* Cytoscape 3.10.3

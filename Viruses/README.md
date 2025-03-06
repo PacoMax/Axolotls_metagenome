@@ -6,5 +6,5 @@ Run PENGUIN.sh to assemble viral genomes.
 
 Programs used:
 * PenguiN Version: 5.cf8933
-
+* QUAST Version: 5.0.2
     `PENGUIN.sh`

@@ -39,3 +39,10 @@ Programs used:
 * pharokka 1.3.0
 
      `ANNOTATE.sh`
+## Step 5
+Run CLASSIFY.sh to classify vMAGs with vcontact2.
+
+Programs used:
+* vConTACT2 0.11.3
+
+      `CLASSIFY`

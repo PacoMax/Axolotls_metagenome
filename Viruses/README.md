@@ -53,6 +53,8 @@ Programs used:
 * Cytoscape 3.10.3
 
 ## Step 6
+First, we downloaded Pfam functional categories dataset from Jahn et al. (2019) Supplementary Data S1 (sheet: Auxiliary_genes_mapping (Fig 3)) https://doi.org/10.1016/j.chom.2019.08.019. Such table is available here as pfam2function.tsv.
+
 Run FUNCTIONS.sh to predict protein domains and assign them to specific functional categories.
 
 Programs used:

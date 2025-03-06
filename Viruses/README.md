@@ -53,13 +53,21 @@ Programs used:
 * Cytoscape 3.10.3
 
 ## Step 6
-First, we downloaded Pfam functional categories dataset from Jahn et al. (2019) Supplementary Data S1 (sheet: Auxiliary_genes_mapping (Fig 3)) https://doi.org/10.1016/j.chom.2019.08.019. Such table is available here as pfam2function.tsv.
-
-Run FUNCTIONS.sh to predict protein domains and assign them to specific functional categories.
+First, we downloaded Pfam functional categories dataset from Jahn et al. (2019) Supplementary Data S1 (sheet: Auxiliary_genes_mapping (Fig 3)) https://doi.org/10.1016/j.chom.2019.08.019. Such table is available here as pfam2function.tsv. Then run FUNCTIONS1.sh to predict protein domains and assign them to specific functional categories.
 
 Programs used:
 * split_multi_fasta.py and get_pfam_functions.py. Available at https://github.com/AleCisMar/GenomicTools
 * VirTaK. Available at https://github.com/AleCisMar/VirTaK
-* HMMER 3.3.2
+
+     `FUNCTIONS1.sh`
+
+After running FUNCTIONS1.sh, download protein HMMs from:
+* Anti-CRISPR-associated proteins https://github.com/boweny920/AcaFinder/tree/main/HMM/AcaHMMs
+* Antibiotic resistance genes http://dantaslab.wustl.edu/resfams/Resfams-full.hmm.gz
+
+Unpack if necessary and prepare the profile databases for hmmscan:
+`hmmpress AcaHMMs.hmm`
+
+*  HMMER 3.3.2
 * virsorter version 2.2.3
 * DRAM v1.5.0

@@ -1,6 +1,6 @@
 #######################################################################
-#################### Virus detection ##########################
-###### detect viral genomes from assembled contigs ######
+########################## Virus detection ############################
+######## detect viral genomes from assembled contigs and MAGs #########
 #######################################################################
 # Used after assembling with PENGUIN
 

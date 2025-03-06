@@ -33,3 +33,19 @@
 # penguin_scaffolds_AD.fasta
 # penguin_scaffolds_AM.fasta
 # penguin_scaffolds_AT.fasta
+
+mkdir vibrant
+
+cat *.fna *.fasta > vibrant/data.fasta
+
+cd vibrant
+
+conda activate vibrant
+
+VIBRANT_run.py -i data.fasta -t 20
+
+conda deactivate
+
+mkdir checkv
+
+checkv end_to_end VIBRANT_data/VIBRANT_phages_data/data.phages_combined.fna checkv

@@ -32,3 +32,10 @@ Programs used:
 * iPHoP v1.1.0
 
      `HOST_PRED.sh`
+## Step 4
+Run ANNOTATE.sh to annotate vMAGs with pharokka.
+
+Programs used:
+* pharokka 1.3.0
+
+     `ANNOTATE.sh`

@@ -30,3 +30,5 @@ Run HOST_PRED.sh to predict hosts for viral metagenome-assembled genomes (vMAGs)
 Programs used:
 * SeqKit Version: 2.9.0
 * iPHoP v1.1.0
+
+     `HOST_PRED.sh`

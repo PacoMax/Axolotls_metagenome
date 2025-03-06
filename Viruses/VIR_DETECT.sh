@@ -2,7 +2,7 @@
 ########################## Virus detection ############################
 ######## detect viral genomes from assembled contigs and MAGs #########
 #######################################################################
-# Used after assembling with PENGUIN
+# Used after assembling with ASSEMBLE.sh
 
 # List of MAGs
 # AA_bin_1_orig.fna

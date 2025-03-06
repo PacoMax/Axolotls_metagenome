@@ -66,8 +66,12 @@ After running FUNCTIONS1.sh, download protein HMMs from:
 * Antibiotic resistance genes http://dantaslab.wustl.edu/resfams/Resfams-full.hmm.gz
 
 Unpack if necessary and prepare the profile databases for hmmscan:
-`hmmpress AcaHMMs.hmm`
-
+```{bash, eval=FALSE, echo=TRUE}
+hmmpress AcaHMMs.hmm
+```
+```{bash, eval=FALSE, echo=TRUE}
+hmmpress Resfams-full.hmm
+```
 *  HMMER 3.3.2
 * virsorter version 2.2.3
 * DRAM v1.5.0

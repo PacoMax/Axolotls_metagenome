@@ -1,0 +1,528 @@
+PFAM.domain	PFAM.domain.description	Category	Annotation_source	Interesting
+PF13532	2OG-Fe(II) oxygenase superfamily	AMG (metabolism)	10.1038/nature19366	
+PF13640	2OG-Fe(II) oxygenase superfamily	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF01242	6-pyruvoyl tetrahydropterin synthase	lysis	10.1038/nature19366	
+PF09206	"Alpha-L-arabinofuranosidase B, catalytic"	membrane transport	10.1038/nature19366	
+PF02543	Carbamoyltransferase	other	10.1038/nature19366	
+PF16861	Carbamoyltransferase C-terminus	PPE	this study	
+PF00182	Chitinase class I	PPE- cell binding	this study	
+PF08471	Class II vitamin B12-dependent ribonucleotide reductase	PPE - cell signalling	this study	
+PF06213	Cobalamin biosynthesis protein CobT	PPE - structural	10.1038/nature19366	
+PF11775	Cobalamin biosynthesis protein CobT VWA domain	PPE - sugar acting	10.1038/nature19366	
+PF01656	CobQ/CobB/MinD/ParA nucleotide binding domain	PPE - sulfur acting	this study	vitaminB12 metabolism
+PF02224	Cytidylate kinase	PPE- cell signalling	10.1038/nature19366	
+PF01467	Cytidylyltransferase	PPE- defence	10.1038/nature19366	
+PF00551	Formyl transferase	PPE- lipopolysaccaride assembly	10.1038/nature19366	
+PF00534	Glycosyl transferases group 1	PPE- Methyltransferase	10.1038/nature19366	
+PF04488	Glycosyltransferase sugar-binding region containing DXD motif	PPE- Protein_Protein_interactions	10.1038/nature19366	
+PF01227	GTP cyclohydrolase I	structural	10.1038/nature19366	EC 3.5.4.16- folate metabolism
+PF01832	Mannosyl-glycoprotein endo-beta-N-acetylglucosaminidase	"transcription, translation, protein synthesis"	10.1038/nature19366	
+PF01370	NAD dependent epimerase/dehydratase family	UNK	10.1038/nature19366	
+PF14819	"Nitrile reductase, 7-cyano-7-deazaguanine-reductase N-term"	AMG (metabolism)	10.1038/nature19366	
+PF00391	"PEP-utilising enzyme, mobile domain"	AMG (metabolism)	10.1038/nature19366	
+PF01507	Phosphoadenosine phosphosulfate reductase family	AMG (metabolism)	10.1038/nature19366	involved in Inorganic Sulfur Assimilation and Cysteine Biosynthesis
+PF01503	Phosphoribosyl-ATP pyrophosphohydrolase	AMG (metabolism)	10.1038/nature19366	
+PF13759	Putative 2OG-Fe(II) oxygenase	AMG (metabolism)	10.1038/nature19366	
+PF14489	QueF-like protein	AMG (metabolism)	10.1038/nature19366	EC:1.7.1.13 - folate metabolism
+PF06508	Queuosine biosynthesis protein QueC	AMG (metabolism)	10.1038/nature19366	EC:6.3.4.20- folate metabolism
+PF02675	S-adenosylmethionine decarboxylase	AMG (metabolism)	10.1038/nature19366	
+PF00685	Sulfotransferase domain	AMG (metabolism)	10.1038/nature19366	
+PF13469	Sulfotransferase family	AMG (metabolism)	10.1038/nature19366	
+PF06559	2'-deoxycytidine 5'-triphosphate deaminase (DCD)	AMG (metabolism)	this study	
+PF16473	"3' exoribonuclease, RNase T-like"	AMG (metabolism)	this study	
+PF01612	3'-5' exonuclease	AMG (metabolism)	10.1038/nature19366	
+PF01367	"5'-3' exonuclease, C-terminal SAM fold"	AMG (metabolism)	10.1038/nature19366	
+PF02739	"5'-3' exonuclease, N-terminal resolvase-like domain"	AMG (metabolism)	10.1038/nature19366	
+PF07275	Antirestriction protein (ArdA)	AMG (metabolism)	10.1038/nature19366	
+PF01870	Archaeal holliday junction resolvase (hjc)	AMG (metabolism)	this study	
+PF01068	ATP dependent DNA ligase domain	AMG (metabolism)	this study	
+PF08299	Bacterial dnaA protein helix-turn-helix	AMG (metabolism)	10.1038/nature19366	
+PF05766	Bacteriophage Lambda NinG protein	AMG (metabolism)	10.1038/nature19366	
+PF05840	Bacteriophage replication gene A protein (GPA)	AMG (metabolism)	10.1038/nature19366	
+PF09250	"Bifunctional DNA primase/polymerase, N-terminal"	AMG (metabolism)	10.1038/nature19366	
+PF04218	CENP-B N-terminal DNA-binding domain	AMG (metabolism)	this study	
+PF02075	Crossover junction endodeoxyribonuclease RuvC	AMG (metabolism)	10.1038/nature19366	
+PF08706	D5 N terminal like	AMG (metabolism)	10.1038/nature19366	
+PF00270	DEAD/DEAH box helicase	AMG (metabolism)	10.1038/nature19366	
+PF14743	DNA ligase OB-like domain	AMG (metabolism)	10.1038/nature19366	
+PF00476	DNA polymerase family A	AMG (metabolism)	10.1038/nature19366	
+PF00136	DNA polymerase family B	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF03104	"DNA polymerase family B, exonuclease domain"	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF02767	"DNA polymerase III beta subunit, central domain"	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF02768	"DNA polymerase III beta subunit, C-terminal domain"	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF00712	"DNA polymerase III beta subunit, N-terminal domain"	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF13177	"DNA polymerase III, delta subunit"	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF03175	"DNA polymerase type B, organellar and viral"	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF01131	DNA topoisomerase	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF01223	DNA/RNA non-specific endonuclease	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF03796	DnaB-like helicase C terminal domain	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF00772	DnaB-like helicase N terminal domain	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF14700	DNA-directed RNA polymerase N-terminal	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF00692	dUTPase	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF05866	Endodeoxyribonuclease RusA	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF02732	ERCC4 domain	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF04404	ERF superfamily	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF01028	"Eukaryotic DNA topoisomerase I, catalytic core"	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF00929	Exonuclease	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF01541	GIY-YIG catalytic domain	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF02831	gpW	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF05127	Helicase	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF00271	Helicase conserved C-terminal domain	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF13307	Helicase C-terminal domain	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF02796	Helix-turn-helix domain of resolvase	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF14279	HNH endonuclease	"DNA replication, recombination, repair; nucleotide metabolism"	this study	
+PF01844	HNH endonuclease	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF13392	HNH endonuclease	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF05204	Homing endonuclease	"DNA replication, recombination, repair; nucleotide metabolism"	this study	
+PF01695	IstB-like ATP binding protein	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF12762	ISXO2-like transposase domain	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF14528	LAGLIDADG-like domain	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF02399	Origin of replication binding protein	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF01057	Parvovirus non-structural protein NS1	"DNA replication, recombination, repair; nucleotide metabolism"	this study	
+PF11645	PD-(D/E)XK endonuclease	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF12705	PD-(D/E)XK nuclease superfamily	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF05367	Phage endonuclease I	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF00589	Phage integrase family	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF13102	Phage integrase SAM-like domain	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF02899	"Phage integrase, N-terminal SAM-like domain"	"DNA replication, recombination, repair; nucleotide metabolism"	this study	
+PF02562	PhoH-like protein	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF03288	Poxvirus D5 protein-like	"DNA replication, recombination, repair; nucleotide metabolism"	this study	
+PF08708	Primase C terminal 1 (PriCT-1)	"DNA replication, recombination, repair; nucleotide metabolism"	this study	
+PF08707	Primase C terminal 2 (PriCT-2)	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF01385	Probable transposase	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF07282	Putative transposase DNA-binding domain	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF04098	Rad52/22 family double-strand break repair protein	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF00154	recA bacterial DNA recombination protein	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF02945	Recombination endonuclease VII	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF03837	RecT family	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF16793	RepB DNA-primase from phage plasmid	"DNA replication, recombination, repair; nucleotide metabolism"	this study	
+PF03090	Replicase family	"DNA replication, recombination, repair; nucleotide metabolism"	this study	
+PF00239	"Resolvase, N terminal domain"	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF14354	Restriction alleviation protein Lar	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF00445	Ribonuclease T2 family	"DNA replication, recombination, repair; nucleotide metabolism"	this study	
+PF14622	Ribonuclease-III-like	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF00317	"Ribonucleotide reductase, all-alpha domain"	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF02867	"Ribonucleotide reductase, barrel domain"	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF00268	"Ribonucleotide reductase, small chain"	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF00565	Staphylococcal nuclease homologue	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF06406	StbA protein	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF02223	Thymidylate kinase	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF00303	Thymidylate synthase	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF02511	Thymidylate synthase complementing protein	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF01751	Toprim domain	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF13362	Toprim domain	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF13662	Toprim domain	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF13155	Toprim-like	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF01527	Transposase	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF01710	Transposase	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF01797	Transposase IS200 like	"DNA replication, recombination, repair; nucleotide metabolism"	this study	
+PF12760	Transposase zinc-ribbon domain	"DNA replication, recombination, repair; nucleotide metabolism"	this study	
+PF04851	"Type III restriction enzyme, res subunit"	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF00580	UvrD/REP helicase N-terminal domain	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF13361	UvrD-like helicase C-terminal domain	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF13538	UvrD-like helicase C-terminal domain	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF01443	Viral (Superfamily 1) RNA helicase	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF08774	VRR-NUC domain	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF09588	YqaJ-like viral recombinase domain	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF08273	Zinc-binding domain of primase-helicase	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF05551	Zinc-binding loop region of homing endonuclease	"DNA replication, recombination, repair; nucleotide metabolism"	this study	
+PF07157	DNA circularisation protein N-terminus	"DNA replication, recombination, repair; nucleotide metabolism"	this study	
+PF01051	Initiator Replication protein	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF01653	NAD-dependent DNA ligase adenylation domain	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF07486	Cell Wall Hydrolase	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF05105	Holin family	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF01476	LysM domain	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF01510	N-acetylmuramoyl-L-alanine amidase	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF01520	N-acetylmuramoyl-L-alanine amidase	"DNA replication, recombination, repair; nucleotide metabolism"	this study	
+PF00959	Phage lysozyme	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF01471	Putative peptidoglycan binding domain	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF01464	Transglycosylase SLT domain	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF06150	ChaB	"DNA replication, recombination, repair; nucleotide metabolism"	this study	
+PF03783	Curli production assembly/transport component CsgG	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF07690	Major Facilitator Superfamily	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF01914	MarC family integral membrane protein	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF00924	Mechanosensitive ion channel	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF12849	PBP superfamily domain	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF02530	Porin subfamily	"DNA replication, recombination, repair; nucleotide metabolism"	this study	
+PF03330	Rare lipoprotein A (RlpA)-like double-psi beta-barrel	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF10614	"Type VIII secretion system (T8SS), CsgF protein"	"DNA replication, recombination, repair; nucleotide metabolism"	10.1038/nature19366	
+PF00313	'Cold-shock' DNA-binding domain	lysis	10.1038/nature19366	
+PF13385	Concanavalin A-like lectin/glucanases superfamily	lysis	10.1038/nature19366	
+PF09524	Conserved phage C-terminus (Phg_2220_C)	lysis	10.1038/nature19366	
+PF07883	Cupin domain	lysis	10.1038/nature19366	
+PF00383	Cytidine and deoxycytidylate deaminase zinc-binding region	lysis	10.1038/nature19366	
+PF05497	Destabilase	lysis	10.1038/nature19366	
+PF00204	DNA gyrase B	lysis	10.1038/nature19366	
+PF00521	"DNA gyrase/topoisomerase IV, subunit A"	membrane transport	10.1038/nature19366	
+PF02817	e3 binding domain	membrane transport	10.1038/nature19366	
+PF04454	Encapsulating protein for peroxidase	membrane transport	10.1038/nature19366	
+PF00210	Ferritin-like domain	membrane transport	10.1038/nature19366	
+PF00041	Fibronectin type III domain	membrane transport	10.1038/nature19366	
+PF13488	Glycine zipper	membrane transport	10.1038/nature19366	
+PF01966	HD domain	membrane transport	10.1038/nature19366	
+PF13023	HD domain	membrane transport	10.1038/nature19366	
+PF13328	HD domain	other	10.1038/nature19366	
+PF02518	"Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase"	other	10.1038/nature19366	
+PF13384	Homeodomain-like domain	other	10.1038/nature19366	
+PF01833	IPT/TIG domain	other	10.1038/nature19366	
+PF04383	KilA-N domain	other	10.1038/nature19366	
+PF10282	"Lactonase, 7-bladed beta-propeller"	other	10.1038/nature19366	
+PF01661	Macro domain	other	10.1038/nature19366	
+PF05063	MT-A70	other	10.1038/nature19366	
+PF00877	NlpC/P60 family	other	10.1038/nature19366	
+PF00293	NUDIX domain	other	10.1038/nature19366	
+PF01936	NYN domain	other	10.1038/nature19366	
+PF12851	Oxygenase domain of the 2OGFeDO superfamily	other	10.1038/nature19366	
+PF05488	PAAR motif	other	10.1038/nature19366	
+PF13180	PDZ domain	other	10.1038/nature19366	
+PF00805	Pentapeptide repeats (8 copies)	other	10.1038/nature19366	
+PF05954	Phage late control gene D protein (GPD)	other	10.1038/nature19366	
+PF07505	Phage protein Gp37/Gp68	other	10.1038/nature19366	
+PF07409	Phage protein GP46	other	10.1038/nature19366	
+PF08645	Polynucleotide kinase 3 phosphatase	other	10.1038/nature19366	
+PF01327	Polypeptide deformylase	other	10.1038/nature19366	
+PF09374	Predicted Peptidoglycan domain	other	10.1038/nature19366	
+PF01258	Prokaryotic dksA/traR C4-type zinc finger	other	10.1038/nature19366	
+PF03013	Pyrimidine dimer DNA glycosylase	other	10.1038/nature19366	
+PF01326	"Pyruvate phosphate dikinase, PEP/pyruvate binding domain"	other	10.1038/nature19366	
+PF04055	Radical SAM superfamily	other	10.1038/nature19366	
+PF00415	Regulator of chromosome condensation (RCC1) repeat	other	10.1038/nature19366	
+PF07498	"Rho termination factor, N-terminal domain"	other	10.1038/nature19366	
+PF01402	"Ribbon-helix-helix protein, copG family"	other	10.1038/nature19366	
+PF00076	"RNA recognition motif. (a.k.a. RRM, RBD, or RNP domain)"	other	10.1038/nature19366	
+PF00436	Single-strand binding protein family	other	10.1038/nature19366	
+PF05565	Siphovirus Gp157	other	10.1038/nature19366	
+PF14594	Siphovirus ReqiPepy6 Gp37-like protein	other	10.1038/nature19366	
+PF00899	ThiF family	other	10.1038/nature19366	
+PF01396	Topoisomerase DNA binding C4 zinc finger	other	10.1038/nature19366	
+PF03167	Uracil DNA glycosylase superfamily	other	10.1038/nature19366	
+PF08800	VirE N-terminal domain	other	10.1038/nature19366	
+PF05272	Virulence-associated protein E	other	10.1038/nature19366	
+PF09643	YopX protein	other	10.1038/nature19366	
+PF13394	4Fe-4S single cluster domain	other	10.1038/nature19366	
+PF13175	AAA ATPase domain	other	10.1038/nature19366	
+PF13476	AAA domain	other	10.1038/nature19366	
+PF13479	AAA domain	other	10.1038/nature19366	
+PF13481	AAA domain	other	10.1038/nature19366	
+PF13521	AAA domain	other	10.1038/nature19366	
+PF13604	AAA domain	other	10.1038/nature19366	
+PF07728	AAA domain (dynein-related subfamily)	other	10.1038/nature19366	
+PF08327	Activator of Hsp90 ATPase homolog 1-like protein	other	this study	
+PF01583	Adenylylsulphate kinase	other	10.1038/nature19366	
+PF03496	ADP-ribosyltransferase exoenzyme	other	10.1038/nature19366	
+PF03869	Arc-like DNA binding domain	other	10.1038/nature19366	
+PF02178	AT hook motif	other	this study	
+PF00004	ATPase family associated with various cellular activities (AAA)	other	10.1038/nature19366	
+PF00216	Bacterial DNA-binding protein	other	10.1038/nature19366	
+PF00496	"Bacterial extracellular solute-binding proteins, family 5 Middle"	other	10.1038/nature19366	
+PF14197	Centrosome localisation domain of PPC89	other	this study	
+PF05257	CHAP domain	other	10.1038/nature19366	
+PF01807	CHC2 zinc finger	other	10.1038/nature19366	
+PF00574	Clp protease	other	10.1038/nature19366	
+PF05019	Coenzyme Q (ubiquinone) biosynthesis protein Coq4	other	10.1038/nature19366	
+PF07878	"CopG-like RHH_1 or ribbon-helix-helix domain, RHH_5"	other	this study	
+PF02672	CP12 domain	other	10.1038/nature19366	
+PF13443	Cro/C1-type HTH DNA-binding domain	other	10.1038/nature19366	
+PF00188	Cysteine-rich secretory protein family	other	10.1038/nature19366	
+PF13472	GDSL-like Lipase/Acylhydrolase family	other	10.1038/nature19366	
+PF14490	Helix-hairpin-helix containing domain	other	this study	
+PF01381	Helix-turn-helix	other	10.1038/nature19366	
+PF12323	Helix-turn-helix domain	other	this study	
+PF12728	Helix-turn-helix domain	other	10.1038/nature19366	
+PF13560	Helix-turn-helix domain	other	10.1038/nature19366	
+PF13730	Helix-turn-helix domain	other	10.1038/nature19366	
+PF13936	Helix-turn-helix domain	other	10.1038/nature19366	
+PF14090	Helix-turn-helix domain	other	10.1038/nature19366	
+PF01355	High potential iron-sulfur protein	other	this study	anaerobic electron transport
+PF08279	HTH domain	other	this study	
+PF13455	Meiotically up-regulated gene 113	other	this study	
+PF10123	Mu-like prophage I protein	other	10.1038/nature19366	
+PF07460	NUMOD3 motif (2 copies)	other	10.1038/nature19366	
+PF07463	NUMOD4 motif	other	10.1038/nature19366	
+PF02195	ParB-like nuclease domain	other	10.1038/nature19366	
+PF13245	Part of AAA domain	other	10.1038/nature19366	
+PF14284	PcfJ-like protein	other	10.1038/nature19366	
+PF00294	pfkB family carbohydrate kinase	other	10.1038/nature19366	
+PF09356	Phage conserved hypothetical protein BR0599	other	10.1038/nature19366	
+PF06056	Putative ATPase subunit of terminase (gpP-like)	other	10.1038/nature19366	
+PF13004	"Putative binding domain, N-terminal"	other	this study	
+PF13753	Putative flagellar system-associated repeat	other	this study	
+PF05345	Putative Ig domain	other	10.1038/nature19366	
+PF03692	Putative zinc- or iron-chelating domain	other	10.1038/nature19366	
+PF01424	R3H domain	other	this study	
+PF09414	RNA ligase	other	10.1038/nature19366	
+PF02026	RyR domain	other	10.1038/nature19366	
+PF02037	SAP domain	other	10.1038/nature19366	
+PF00856	SET domain	other	10.1038/nature19366	
+PF04434	SWIM zinc finger	other	this study	
+PF13181	Tetratricopeptide repeat	other	this study	
+PF13432	Tetratricopeptide repeat	other	this study	
+PF00443	Ubiquitin carboxyl-terminal hydrolase	other	this study	
+PF16190	Ubiquitin-activating enzyme E1 FCCH domain	other	this study	
+PF07676	WD40-like Beta Propeller Repeat	other	this study	
+PF13412	Winged helix-turn-helix DNA-binding	other	10.1038/nature19366	
+PF08325	WLM domain	other	this study	
+PF12217	Catalytic beta propeller domain of bacteriophage endosialidase	other	10.1038/nature19366	involved in tranport through mucus in phages
+PF02368	Bacterial Ig-like domain (group 2)	other	10.1038/nature19366	
+PF05226	CHASE2 domain	other	10.1038/nature19366	
+PF02618	YceG-like family	other	10.1038/nature19366	
+PF01391	Collagen triple helix repeat (20 copies)	other	10.1038/nature19366	
+PF05838	Glycosyl hydrolase 108	other	10.1038/nature19366	
+PF00722	Glycosyl hydrolases family 16	other	10.1038/nature19366	
+PF13704	Glycosyl transferase family 2	other	10.1038/nature19366	
+PF00535	Glycosyl transferase family 2	other	10.1038/nature19366	
+PF13692	Glycosyl transferases group 1	other	10.1038/nature19366	
+PF01755	Glycosyltransferase family 25 (LPS biosynthesis protein)	other	10.1038/nature19366	
+PF13439	Glycosyltransferase Family 4	other	10.1038/nature19366	
+PF04777	Erv1 / Alr family	other	10.1038/nature19366	
+PF00462	Glutaredoxin	other	10.1038/nature19366	
+PF03895	YadA-like membrane anchor domain	PPE - structural	this study	T
+PF00193	Extracellular link domain	PPE - sugar acting	this study	T
+PF01085	Hedgehog amino-terminal signalling domain	PPE - sugar acting	this study	T
+PF05015	Plasmid maintenance system killer protein	PPE - sugar acting	10.1038/nature19366	
+PF12706	Beta-lactamase superfamily domain	PPE - sugar acting	10.1038/nature19366	
+PF01636	Phosphotransferase enzyme family	PPE - sugar acting	10.1038/nature19366	
+PF15943	"Putative antitoxin of bacterial toxin-antitoxin system, YdaS/YdaT"	PPE - sugar acting	this study	
+PF02794	RTX toxin acyltransferase family	PPE - sulfur acting	10.1038/nature19366	
+PF14373	Superinfection immunity protein	PPE- cell binding	this study	
+PF06305	Lipopolysaccharide assembly protein A domain	PPE- cell binding	this study	
+PF13651	Adenine-specific methyltransferase EcoRI	PPE- defence	this study	
+PF00145	C-5 cytosine-specific DNA methylase	PPE- defence	this study	
+PF08484	C-methyltransferase C-terminal domain	PPE- defence	this study	
+PF02086	D12 class N6 adenine-specific DNA methyltransferase	PPE- defence	this study	
+PF01555	DNA methylase	PPE- defence	this study	
+PF05869	DNA N-6-adenine-methyltransferase (Dam)	PPE- Methyltransferase	this study	
+PF07669	Eco57I restriction-modification methylase	PPE- Methyltransferase	this study	
+PF08241	Methyltransferase domain	PPE- Methyltransferase	this study	
+PF08242	Methyltransferase domain	PPE- Methyltransferase	this study	
+PF13489	Methyltransferase domain	PPE- Methyltransferase	this study	
+PF13578	Methyltransferase domain	PPE- Methyltransferase	this study	
+PF05050	Methyltransferase FkbM domain	PPE- Methyltransferase	this study	
+PF05175	Methyltransferase small domain	PPE- Methyltransferase	this study	
+PF13606	Ankyrin repeat	PPE- Methyltransferase	this study	T
+PF12796	Ankyrin repeats (3 copies)	PPE- Methyltransferase	10.1038/nature19366	
+PF13857	Ankyrin repeats (many copies)	PPE- Methyltransferase	10.1038/nature19366	
+PF12236	Bacteriophage head to tail connecting protein	PPE- Methyltransferase	10.1038/nature19366	
+PF04883	"Bacteriophage HK97-gp10, putative tail-component"	PPE- Protein_Protein_interactions	10.1038/nature19366	
+PF06890	Bacteriophage Mu Gp45 protein	PPE- Protein_Protein_interactions	this study	
+PF02925	Bacteriophage scaffolding protein D	structural	this study	
+PF07230	Bacteriophage T4-like capsid assembly protein (Gp20)	structural	10.1038/nature19366	
+PF09306	"Bacteriophage, scaffolding protein"	structural	10.1038/nature19366	
+PF11246	Base plate wedge protein 53	structural	10.1038/nature19366	
+PF04865	Baseplate J-like protein	structural	10.1038/nature19366	
+PF02305	Capsid protein (F protein)	structural	10.1038/nature19366	
+PF02336	Capsid protein VP4	structural	this study	
+PF04586	Caudovirus prohead protease	structural	10.1038/nature19366	
+PF09675	Chlamydia-phage Chp2 scaffold (Chlamy_scaf)	structural	this study	
+PF16677	DNA-packaging protein gp3	structural	this study	
+PF04965	Gene 25-like lysozyme	structural	10.1038/nature19366	
+PF09008	Head binding	structural	10.1038/nature19366	
+PF09718	Lambda phage tail tape-measure protein (Tape_meas_lam_C)	structural	10.1038/nature19366	
+PF07068	Major capsid protein Gp23	structural	10.1038/nature19366	
+PF04687	Microvirus H protein (pilot protein)	structural	10.1038/nature19366	
+PF10109	Mu-like prophage FluMu protein gp41	structural	10.1038/nature19366	
+PF10124	Mu-like prophage major head subunit gpT	structural	10.1038/nature19366	
+PF06891	P2 phage tail completion protein R (GpR)	structural	10.1038/nature19366	
+PF11651	P22 coat protein - gene protein 5	structural	10.1038/nature19366	
+PF11650	P22 tail accessory factor	structural	10.1038/nature19366	
+PF08398	Parvovirus coat protein VP1	structural	this study	
+PF05065	Phage capsid family	structural	10.1038/nature19366	
+PF05929	Phage capsid scaffolding protein (GPO) serine peptidase	structural	10.1038/nature19366	
+PF05135	Phage gp6-like head-tail connector protein	structural	10.1038/nature19366	
+PF05926	Phage head completion protein (GPL)	structural	10.1038/nature19366	
+PF05354	Phage Head-Tail Attachment	structural	10.1038/nature19366	
+PF05521	Phage head-tail joining protein	structural	10.1038/nature19366	
+PF03864	Phage major capsid protein E	structural	10.1038/nature19366	
+PF05125	"Phage major capsid protein, P2 family"	structural	10.1038/nature19366	
+PF06199	Phage major tail protein 2	structural	10.1038/nature19366	
+PF06152	Phage minor capsid protein 2	structural	10.1038/nature19366	
+PF05939	Phage minor tail protein	structural	10.1038/nature19366	
+PF05100	Phage minor tail protein L	structural	10.1038/nature19366	
+PF04233	Phage Mu protein F like protein	structural	10.1038/nature19366	
+PF06995	Phage P2 GpU	structural	10.1038/nature19366	
+PF16510	Phage P22-like portal protein	structural	this study	
+PF04860	Phage portal protein	structural	10.1038/nature19366	
+PF05136	"Phage portal protein, lambda family"	structural	10.1038/nature19366	
+PF05133	"Phage portal protein, SPP1 Gp6-like"	structural	10.1038/nature19366	
+PF05944	Phage small terminase subunit	structural	10.1038/nature19366	
+PF11134	Phage stabilisation protein	structural	10.1038/nature19366	
+PF05396	Phage T7 capsid assembly protein	structural	10.1038/nature19366	
+PF03906	Phage T7 tail fibre protein	structural	10.1038/nature19366	
+PF08748	Phage tail assembly chaperone	structural	this study	
+PF16778	Phage tail assembly chaperone protein	structural	this study	
+PF07484	Phage Tail Collar Domain	structural	10.1038/nature19366	
+PF05268	Phage tail fibre adhesin Gp38	structural	this study	
+PF03406	Phage tail fibre repeat	structural	10.1038/nature19366	
+PF08813	Phage tail protein	structural	10.1038/nature19366	
+PF05709	Phage tail protein	structural	10.1038/nature19366	
+PF09684	Phage tail protein (Tail_P2_I)	structural	10.1038/nature19366	
+PF05489	Phage Tail Protein X	structural	10.1038/nature19366	
+PF12789	Phage tail repeat like	structural	10.1038/nature19366	
+PF17482	Phage tail sheath C-terminal domain	structural	this study	
+PF04984	Phage tail sheath protein	structural	10.1038/nature19366	
+PF10618	Phage tail tube protein	structural	10.1038/nature19366	
+PF16463	Phage tail tube protein family	structural	this study	
+PF04985	Phage tail tube protein FII	structural	10.1038/nature19366	
+PF03354	Phage Terminase	structural	10.1038/nature19366	
+PF04466	Phage terminase large subunit	structural	10.1038/nature19366	
+PF05876	Phage terminase large subunit (GpA)	structural	10.1038/nature19366	
+PF05119	"Phage terminase, small subunit"	structural	10.1038/nature19366	
+PF10145	Phage-related minor tail protein	structural	10.1038/nature19366	
+PF04665	Poxvirus A32 protein	structural	10.1038/nature19366	
+PF03420	Prohead core protein protease	structural	10.1038/nature19366	
+PF06763	Prophage minor tail protein Z (GPZ)	structural	10.1038/nature19366	
+PF06791	Prophage tail length tape measure protein	structural	10.1038/nature19366	
+PF14550	Putative phage protease XkdF	structural	10.1038/nature19366	
+PF13550	Putative phage tail protein	structural	10.1038/nature19366	
+PF16724	T4-like virus Myoviridae tail sheath stabiliser	structural	this study	
+PF06841	T4-like virus tail tube protein gp19	structural	10.1038/nature19366	
+PF17212	Tail tubular protein	structural	this study	
+PF17288	Terminase RNAseH like domain	structural	this study	
+PF17289	Terminase RNaseH-like domain	structural	this study	
+PF03592	Terminase small subunit	structural	10.1038/nature19366	
+PF03237	Terminase-like family	structural	10.1038/nature19366	
+PF11649	Virus neck protein	structural	10.1038/nature19366	
+PF13673	Acetyltransferase (GNAT) domain	structural	10.1038/nature19366	
+PF13508	Acetyltransferase (GNAT) domain	structural	10.1038/nature19366	
+PF00583	Acetyltransferase (GNAT) family	"transcription, translation, protein synthesis"	10.1038/nature19366	
+PF00211	Adenylate and Guanylate cyclase catalytic domain	"transcription, translation, protein synthesis"	10.1038/nature19366	
+PF00847	AP2 domain	"transcription, translation, protein synthesis"	10.1038/nature19366	
+PF02954	"Bacterial regulatory protein, Fis family"	"transcription, translation, protein synthesis"	10.1038/nature19366	
+PF00196	"Bacterial regulatory proteins, luxR family"	"transcription, translation, protein synthesis"	10.1038/nature19366	
+PF03118	"Bacterial RNA polymerase, alpha chain C terminal domain"	"transcription, translation, protein synthesis"	10.1038/nature19366	
+PF00149	Calcineurin-like phosphoesterase	"transcription, translation, protein synthesis"	10.1038/nature19366	
+PF12850	Calcineurin-like phosphoesterase superfamily domain	"transcription, translation, protein synthesis"	10.1038/nature19366	
+PF13884	Chaperone of endosialidase	"transcription, translation, protein synthesis"	10.1038/nature19366	
+PF00166	Chaperonin 10 Kd subunit	"transcription, translation, protein synthesis"	10.1038/nature19366	
+PF13539	D-alanyl-D-alanine carboxypeptidase	"transcription, translation, protein synthesis"	10.1038/nature19366	
+PF14549	DNA-binding transcriptional regulator Cro	"transcription, translation, protein synthesis"	10.1038/nature19366	
+PF00940	DNA-dependent RNA polymerase	"transcription, translation, protein synthesis"	10.1038/nature19366	
+PF04773	FecR protein	"transcription, translation, protein synthesis"	10.1038/nature19366	
+PF02599	Global regulator protein family	"transcription, translation, protein synthesis"	10.1038/nature19366	
+PF00011	Hsp20/alpha crystallin family	"transcription, translation, protein synthesis"	10.1038/nature19366	
+PF01726	LexA DNA binding domain	"transcription, translation, protein synthesis"	10.1038/nature19366	
+PF00413	Matrixin	"transcription, translation, protein synthesis"	10.1038/nature19366	
+PF03819	MazG nucleotide pyrophosphohydrolase domain	"transcription, translation, protein synthesis"	10.1038/nature19366	
+PF04606	Ogr/Delta-like zinc finger	"transcription, translation, protein synthesis"	this study	
+PF01551	Peptidase family M23	"transcription, translation, protein synthesis"	10.1038/nature19366	
+PF01343	Peptidase family S49	"transcription, translation, protein synthesis"	10.1038/nature19366	
+PF08291	Peptidase M15	"transcription, translation, protein synthesis"	10.1038/nature19366	
+PF00717	Peptidase S24-like	"transcription, translation, protein synthesis"	10.1038/nature19366	
+PF06892	Phage regulatory protein CII (CP76)	"transcription, translation, protein synthesis"	10.1038/nature19366	
+PF07879	PHB/PHA accumulation regulator DNA-binding domain	"transcription, translation, protein synthesis"	10.1038/nature19366	
+PF00156	Phosphoribosyl transferase domain	"transcription, translation, protein synthesis"	10.1038/nature19366	
+PF11740	Plasmid replication region DNA-binding N-term	"transcription, translation, protein synthesis"	10.1038/nature19366	
+PF05930	Prophage CP4-57 regulatory protein (AlpA)	"transcription, translation, protein synthesis"	10.1038/nature19366	
+PF00680	RNA dependent RNA polymerase	"transcription, translation, protein synthesis"	this study	
+PF00910	RNA helicase	"transcription, translation, protein synthesis"	this study	
+PF04983	"RNA polymerase Rpb1, domain 3"	"transcription, translation, protein synthesis"	this study	
+PF05000	"RNA polymerase Rpb1, domain 4"	"transcription, translation, protein synthesis"	this study	
+PF04998	"RNA polymerase Rpb1, domain 5"	"transcription, translation, protein synthesis"	10.1038/nature19366	
+PF04992	"RNA polymerase Rpb1, domain 6"	"transcription, translation, protein synthesis"	this study	
+PF04990	"RNA polymerase Rpb1, domain 7"	"transcription, translation, protein synthesis"	this study	
+PF13482	RNase_H superfamily	"transcription, translation, protein synthesis"	10.1038/nature19366	
+PF00140	"Sigma-70 factor, region 1.2"	"transcription, translation, protein synthesis"	10.1038/nature19366	
+PF04542	Sigma-70 region 2	"transcription, translation, protein synthesis"	10.1038/nature19366	
+PF04539	Sigma-70 region 3	"transcription, translation, protein synthesis"	10.1038/nature19366	
+PF04545	"Sigma-70, region 4"	"transcription, translation, protein synthesis"	10.1038/nature19366	
+PF00176	SNF2 family N-terminal domain	"transcription, translation, protein synthesis"	10.1038/nature19366	
+PF10544	T5orf172 domain	"transcription, translation, protein synthesis"	10.1038/nature19366	
+PF00118	TCP-1/cpn60 chaperonin family	"transcription, translation, protein synthesis"	10.1038/nature19366	
+PF11957	THO complex subunit 1 transcription elongation factor	"transcription, translation, protein synthesis"	this study	
+PF01096	Transcription factor S-II (TFIIS)	"transcription, translation, protein synthesis"	this study	
+PF01371	Trp repressor protein	"transcription, translation, protein synthesis"	this study	
+PF13554	Bacteriophage related domain of unknown function	"transcription, translation, protein synthesis"	10.1038/nature19366	
+PF09550	Conserved hypothetical phage protein (DUF2376)	UNK	10.1038/nature19366	
+PF09343	Conserved hypothetical protein 2217 (DUF2460)	UNK	10.1038/nature19366	
+PF03602	Conserved hypothetical protein 95	UNK	this study	
+PF06568	Domain of unknown function (DUF1127)	UNK	10.1038/nature19366	
+PF07411	Domain of unknown function (DUF1508)	UNK	10.1038/nature19366	
+PF07659	Domain of Unknown Function (DUF1599)	UNK	10.1038/nature19366	
+PF08401	Domain of unknown function (DUF1738)	UNK	10.1038/nature19366	
+PF08875	Domain of unknown function (DUF1833)	UNK	10.1038/nature19366	
+PF09152	Domain of unknown function (DUF1937)	UNK	10.1038/nature19366	
+PF09327	Domain of unknown function (DUF1983)	UNK	10.1038/nature19366	
+PF10651	Domain of unknown function (DUF2479)	UNK	this study	
+PF11325	Domain of unknown function (DUF3127)	UNK	10.1038/nature19366	
+PF11922	Domain of unknown function (DUF3440)	UNK	10.1038/nature19366	
+PF12167	Domain of unknown function (DUF3596)	UNK	10.1038/nature19366	
+PF12957	Domain of unknown function (DUF3846)	UNK	10.1038/nature19366	
+PF12965	Domain of unknown function (DUF3854)	UNK	10.1038/nature19366	
+PF13264	Domain of unknown function (DUF4055)	UNK	10.1038/nature19366	
+PF13356	Domain of unknown function (DUF4102)	UNK	10.1038/nature19366	
+PF14076	Domain of unknown function (DUF4258)	UNK	this study	
+PF14216	Domain of unknown function (DUF4326)	UNK	10.1038/nature19366	
+PF14236	Domain of unknown function (DUF4338)	UNK	10.1038/nature19366	
+PF14359	Domain of unknown function (DUF4406)	UNK	10.1038/nature19366	
+PF06048	Domain of unknown function (DUF927)	UNK	10.1038/nature19366	
+PF06067	Domain of unknown function (DUF932)	UNK	10.1038/nature19366	
+PF06114	Domain of unknown function (DUF955)	UNK	10.1038/nature19366	
+PF17236	Family of unknown function (DUF5309)	UNK	this study	
+PF10162	G8 domain	UNK	this study	
+PF17338	Gene 88 protein	UNK	this study	
+PF12684	PDDEXK-like domain of unknown function (DUF3799)	UNK	10.1038/nature19366	
+PF08809	Phage related hypothetical protein (DUF1799)	UNK	10.1038/nature19366	
+PF12571	Phage tail-collar fibre protein	UNK	10.1038/nature19366	
+PF09834	Predicted membrane protein (DUF2061)	UNK	10.1038/nature19366	
+PF12518	Protein of unknown function	UNK	10.1038/nature19366	
+PF06319	Protein of unknown function (DUF1052)	UNK	10.1038/nature19366	
+PF06356	Protein of unknown function (DUF1064)	UNK	10.1038/nature19366	
+PF06381	Protein of unknown function (DUF1073)	UNK	10.1038/nature19366	
+PF06945	Protein of unknown function (DUF1289)	UNK	10.1038/nature19366	
+PF07030	Protein of unknown function (DUF1320)	UNK	10.1038/nature19366	
+PF07087	Protein of unknown function (DUF1353)	UNK	10.1038/nature19366	
+PF07105	Protein of unknown function (DUF1367)	UNK	10.1038/nature19366	
+PF07120	Protein of unknown function (DUF1376)	UNK	10.1038/nature19366	
+PF07278	Protein of unknown function (DUF1441)	UNK	10.1038/nature19366	
+PF07308	Protein of unknown function (DUF1456)	UNK	this study	
+PF07510	Protein of unknown function (DUF1524)	UNK	10.1038/nature19366	
+PF07799	Protein of unknown function (DUF1643)	UNK	10.1038/nature19366	
+PF08681	Protein of unknown function (DUF1778)	UNK	10.1038/nature19366	
+PF10686	Protein of unknown function (DUF2493)	UNK	10.1038/nature19366	
+PF10758	Protein of unknown function (DUF2586)	UNK	10.1038/nature19366	
+PF11655	Protein of unknown function (DUF2589)	UNK	10.1038/nature19366	
+PF10772	Protein of unknown function (DUF2597)	UNK	10.1038/nature19366	
+PF11041	Protein of unknown function (DUF2612)	UNK	10.1038/nature19366	
+PF10934	Protein of unknown function (DUF2634)	UNK	this study	
+PF10902	Protein of unknown function (DUF2693)	UNK	10.1038/nature19366	
+PF10963	Protein of unknown function (DUF2765)	UNK	10.1038/nature19366	
+PF10983	Protein of unknown function (DUF2793)	UNK	10.1038/nature19366	
+PF10926	Protein of unknown function (DUF2800)	UNK	10.1038/nature19366	
+PF10991	Protein of unknown function (DUF2815)	UNK	10.1038/nature19366	
+PF11195	Protein of unknown function (DUF2829)	UNK	10.1038/nature19366	
+PF11171	Protein of unknown function (DUF2958)	UNK	10.1038/nature19366	
+PF11187	Protein of unknown function (DUF2974)	UNK	this study	
+PF11211	Protein of unknown function (DUF2997)	UNK	10.1038/nature19366	
+PF11351	Protein of unknown function (DUF3154)	UNK	10.1038/nature19366	
+PF11367	Protein of unknown function (DUF3168)	UNK	10.1038/nature19366	
+PF11436	Protein of unknown function (DUF3199)	UNK	this study	
+PF11681	Protein of unknown function (DUF3277)	UNK	10.1038/nature19366	
+PF11697	Protein of unknown function (DUF3293)	UNK	10.1038/nature19366	
+PF11805	Protein of unknown function (DUF3326)	UNK	this study	
+PF11836	Protein of unknown function (DUF3356)	UNK	10.1038/nature19366	
+PF11860	Protein of unknown function (DUF3380)	UNK	10.1038/nature19366	
+PF11863	Protein of unknown function (DUF3383)	UNK	10.1038/nature19366	
+PF12130	Protein of unknown function (DUF3585)	UNK	this study	
+PF12294	Protein of unknown function (DUF3626)	UNK	this study	
+PF12476	Protein of unknown function (DUF3696)	UNK	this study	
+PF13148	Protein of unknown function (DUF3987)	UNK	10.1038/nature19366	
+PF13223	Protein of unknown function (DUF4031)	UNK	10.1038/nature19366	
+PF13252	Protein of unknown function (DUF4043)	UNK	10.1038/nature19366	
+PF13262	Protein of unknown function (DUF4054)	UNK	10.1038/nature19366	
+PF13274	Protein of unknown function (DUF4065)	UNK	10.1038/nature19366	
+PF04308	Protein of unknown function (DUF458)	UNK	10.1038/nature19366	
+PF04448	Protein of unknown function (DUF551)	UNK	10.1038/nature19366	
+PF05037	Protein of unknown function (DUF669)	UNK	10.1038/nature19366	
+PF06074	Protein of unknown function (DUF935)	UNK	10.1038/nature19366	
+PF01863	Protein of unknown function DUF45	UNK	10.1038/nature19366	
+PF11753	Protein of unknwon function (DUF3310)	UNK	10.1038/nature19366	
+PF13203	Putative metallopeptidase domain	UNK	10.1038/nature19366	
+PF02592	"Uncharacterized ACR, YhhQ family COG1738"	UNK	10.1038/nature19366	
+PF09994	Uncharacterized alpha/beta hydrolase domain (DUF2235)	UNK	10.1038/nature19366	
+PF09931	Uncharacterized conserved protein (DUF2163)	UNK	10.1038/nature19366	
+PF09956	Uncharacterized conserved protein (DUF2190)	UNK	10.1038/nature19366	
+PF09950	Uncharacterized protein conserved in bacteria (DUF2184)	UNK	10.1038/nature19366	
+PF09979	Uncharacterized protein conserved in bacteria (DUF2213)	UNK	10.1038/nature19366	
+PF10073	Uncharacterized protein conserved in bacteria (DUF2312)	UNK	10.1038/nature19366	
+PF10076	Uncharacterized protein conserved in bacteria (DUF2313)	UNK	10.1038/nature19366	
+PF09967	VWA-like domain (DUF2201)	UNK	10.1038/nature19366	

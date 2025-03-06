@@ -46,8 +46,17 @@ Programs used:
 * vConTACT2 0.11.3
 
      `CLASSIFY.sh`
-
 After running CLASSIFY.sh output files c1_ntw.csv and genome_by_genome_overview.csv where used as input edge and node tables, respectively, for network visualization. 
 
 Programs used:
 * Cytoscape 3.10.3
+
+## Step 6
+Run FUNCTIONS.sh to predict protein domains and assign them to specific functional categories.
+
+Programs used:
+* VirTaK. Available at https://github.com/AleCisMar/VirTaK
+* split_multi_fasta.py and get_pfam_functions.py. Available at https://github.com/AleCisMar/GenomicTools
+* HMMER 3.3.2
+* virsorter version 2.2.3
+* DRAM v1.5.0

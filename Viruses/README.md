@@ -33,14 +33,14 @@ Programs used:
 
      `HOST_PRED.sh`
 ## Step 4
-Run ANNOTATE.sh to annotate vMAGs with pharokka.
+Run ANNOTATE.sh to annotate vMAGs and prophages with pharokka.
 
 Programs used:
 * pharokka 1.3.0
 
      `ANNOTATE.sh`
 ## Step 5
-Run CLASSIFY.sh to classify vMAGs with vcontact2.
+Run CLASSIFY.sh to classify vMAGs and prophages with vcontact2.
 
 Programs used:
 * vConTACT2 0.11.3

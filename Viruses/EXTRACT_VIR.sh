@@ -59,3 +59,15 @@ seqkit grep -f list.txt vibrant/checkv/viruses.fna -o genomes/all_genomes.fna
 # NODE_29_length_35341_cov_10.260577_AM_X1_bin_4_strict
 # NODE_3_length_14900_cov_4.022195_AM_X3_bin_1_permissive
 # NODE_64_length_14526_cov_6.215171_AM_X3_bin_3_strict
+
+# Dereplicate with checkv auxiliary scripts
+# Create blast database and run blastn
+mkdir database
+makeblastdb -in genomes/all_genomes.fna -dbtype nucl -out database/all_genomes
+blastn -query genomes/all_genomes.fna -db database/all_genomes -outfmt '6 std qlen slen' -out my_blast.tsv
+
+# Calculate pairwise ANI by combining local alignments between sequence pairs:
+anicalc.py -i my_blast.tsv -o my_ani.tsv
+
+# Clustering using the MIUVIG recommended-parameters (95% ANI + 85% AF):
+aniclust.py --fna genomes/all_genomes.fna --ani my_ani.tsv --out my_clusters.tsv --min_ani 95 --min_tcov 85 --min_qcov 0

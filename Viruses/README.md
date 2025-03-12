@@ -18,10 +18,11 @@ Programs used:
 
     `VIR_DETECT.sh`
 
-After running VIR_DETECT.sh we selected viral contigs with medium to high checkv quality, and four viral contigs predicted from MAGs with low quality but completeness > 25% and contamination = 0. To extract selected viral contigs run EXTRACT_VIR.sh:
+After running VIR_DETECT.sh we selected viral contigs with medium to high checkv quality, and four viral contigs predicted from MAGs with low quality but completeness > 25% and contamination = 0. To extract selected viral contigs run `EXTRACT_VIR.sh`. After extracting contigs it performs dereplication with checkv auxiliary scripts `anicalc.py` and `aniclust.py`:
 
 Programs used:
 * SeqKit Version: 2.9.0
+* BLAST 2.12.0+
 
     `EXTRACT_VIR.sh`
 ## Step 3

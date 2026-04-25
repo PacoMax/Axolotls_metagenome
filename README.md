@@ -13,7 +13,7 @@ Programs used:
 Run MAP.sh to filter reads from the host (axolotl) and human.
 
 Programs used:
-* bwa version 7.17-r1188
+* Bowtie2 version 2.3.4.1
 
     `MAP.sh`
 

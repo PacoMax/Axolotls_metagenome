@@ -4,7 +4,7 @@
 ####################   MAG functional annotation   ####################
 #######################################################################
 
-mkdir -p MAGs_busco MAGs_bt_tax MAGs_bt_caz MAGs_bt_anti
+mkdir -p MAGs_busco MAGs_bt_tax MAGs_bt_caz MAGs_bt_anti MAGs_bt_egg MAGs_pro
 
 #########################
 # GTDB-Tk taxonomy
@@ -68,5 +68,29 @@ do
     --genefinding-tool prodigal \
     --output-dir "MAGs_bt_anti/${name}_antismash" \
     "$i"
+
+
+    #########################
+    # eggNOG mapper
+    #########################
+
+    prodigal -p meta \
+    -i "$i" \
+    -o MAGs_pro/"${i%.fasta}"_position.gff \
+    -a MAGs_pro/"${i%.fasta}"_cds.faa  \
+    -d MAGs_pro/"${i%.fasta}"_ncl.fa
+
+    emapper.py \
+    --cpu 30 \
+    -m diamond \
+    --itype CDS \
+    --translate \
+    --evalue 0.00001 \
+    -i MAGs_bt_pro/"${i%.fasta}"_ncl.fasta \
+    -o MAGs_bt_egg/"${i%.fasta}"_egg \
+    --decorate_gff yes \
+    --excel \
+    --report_orthologs \
+    --data_dir /data6/bases/eggnogdb
 
 done

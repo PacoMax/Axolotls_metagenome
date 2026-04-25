@@ -16,3 +16,37 @@ Programs used:
 * bwa version 7.17-r1188
 
     `MAP.sh`
+
+## Step 3
+
+Run KAJU.sh to annotate the filter reads.
+
+Programs used:
+* Kaiju version 1.7.2
+
+    `KAJU.sh`
+
+
+## Step 4
+Run MASA.sh to obtain meta-assemblies
+
+Programs used:
+* Megahit version 1.2.9
+
+    `MASA.sh`
+
+## Step 5
+Run BING.sh to obtain the bacterial MAGs
+
+Programs used:
+* MetaWRAP pipeline version 0.7
+* maxbin2 version 2
+* metabat2 version 2.18
+* concoct version 1.1.0
+
+    `BING.sh`
+
+## Step 6
+
+
+

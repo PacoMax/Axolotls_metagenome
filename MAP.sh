@@ -31,70 +31,154 @@ tree QC
 #|-- GRCh38_latest_genomic.fna.pac
 #|-- GRCh38_latest_genomic.fna.sa
 
-##cd ref_genomes
-#Axolotl
-##bwa index GCA_002915635.3_AmbMex60DD_genomic.fna
-#Human
-##bwa index GRCh38_latest_genomic.fna
-##cd ../
 
 #Creating the directory where the mapped sequences were kept
+
+#######################################################################
+###################   Host read removal pipeline   ####################
+#######################################################################
+
+for j in AA AD AM AT
+do
+
 mkdir MAP
 
-#Files where stats of the results of mapping
-#For host
-echo "Stats file host" > MAP/Stats_host.txt
-#For human
-echo "Stats file human" > MAP/Stats_human.txt
+#########################
+# Process each sample
+#########################
 
-#Cycle for mapping each sample
-for i in $(ls data_am/ | grep -v '\.')
+for i in $(ls ${j}/QR | sed 's/_trim//')
 do
-#Mapping against host
-bwa mem -t 20 \
-#reference genome
-genomes_ref/GCA_002915635.3_AmbMex60DD_genomic.fna \
-#reads quality-filtered inside QR folder from the previous run
-QR/${i}_trim/${i}_1_val_1.fq.gz \
-QR/${i}_trim/${i}_2_val_2.fq.gz \
-> MAP/${i}_host_paired.bam
 
+#######################################################################
+######################   Remove axolotl reads   #######################
+#######################################################################
 
-#Getting R1 & R2 unmapped
-samtools view -u -f 12 -F 256 MAP/${i}_host_paired.bam > MAP/${i}_host_unmap_unmap.bam
-#Sorting
-samtools sort -n  MAP/${i}_host_unmap_unmap.bam -o MAP/${i}_host_unmap_unmap.sort
-#Extracing the flagstats
-echo "$i" >> MAP/Stats_host.txt
-samtools flagstat MAP/${i}_host_unmap_unmap.sort  >> MAP/Stats_host.txt
-#Getting the R1 & R2 in fastq format
-bamToFastq -i MAP/${i}_host_unmap_unmap.sort -fq MAP/${i}_host_unmap.1.fastq -fq2 MAP/${i}_host_unmap.2.fastq
+#########################
+# Map to axolotl genome
+#########################
 
-#Deleting temporary files for memory optimization
-rm MAP/${i}_host_unmap_unmap.bam
-rm MAP/${i}_host_unmap_unmap.sort
+bowtie2 --sensitive --dovetail \
+-p 20 \
+-x genomes_ref/AXO \
+-1 ${j}/QR/${i}_trim/${i}_1_val_1.fq.gz \
+-2 ${j}/QR/${i}_trim/${i}_2_val_2.fq.gz \
+-S ${j}/MAP/${i}_AX_paired_bo.sam
 
-#Now mapping against human genome
-bwa mem -t 20 \
-genomes_ref/GRCh38_latest_genomic.fna \
-MAP/${i}_host_unmap.1.fastq \
-MAP/${i}_host_unmap.2.fastq \
-> MAP/${i}_human_paired.bam
+#########################
+# Convert SAM to BAM
+#########################
 
+samtools view -bS \
+${j}/MAP/${i}_AX_paired_bo.sam \
+> ${j}/MAP/${i}_AX_paired_bo.bam
 
-# R1 & R2 unmapped
-samtools view -u -f 12 -F 256 MAP/${i}_human_paired.bam > MAP/${i}_human_unmap_unmap.bam
-#Sort
-samtools sort -n  MAP/${i}_human_unmap_unmap.bam -o MAP/${i}_human_unmap_unmap.sort
-#Flagstat
-echo "$i" >> MAP/Stats_human.txt
-samtools flagstat MAP/${i}_human_unmap_unmap.sort >> MAP/Stats_human.txt
-#get R1 & R2
-bamToFastq -i MAP/${i}_human_unmap_unmap.sort -fq MAP/${i}_human_unmap_1.fastq -fq2 MAP/${i}_human_unmap_2.fastq
+#########################
+# Keep unmapped pairs
+#########################
 
+samtools view -u -f 12 -F 256 \
+${j}/MAP/${i}_AX_paired_bo.bam \
+> ${j}/MAP/${i}_AX_unmap_unmap_bo.bam
 
-rm MAP/${i}_human_unmap_unmap.bam
-rm MAP/${i}_human_unmap_unmap.sort
+#########################
+# Sort by read name
+#########################
 
+samtools sort -n \
+${j}/MAP/${i}_AX_unmap_unmap_bo.bam \
+-o ${j}/MAP/${i}_AX_unmap_unmap_bo.sort
 
+#########################
+# Save statistics
+#########################
+
+echo "$i" >> ${j}/MAP/Stats_AX_bo.txt
+samtools flagstat \
+${j}/MAP/${i}_AX_unmap_unmap_bo.sort \
+>> ${j}/MAP/Stats_AX_bo.txt
+
+#########################
+# Recover FASTQ pairs
+#########################
+
+bamToFastq \
+-i ${j}/MAP/${i}_AX_unmap_unmap_bo.sort \
+-fq ${j}/MAP/${i}_AX_unmap_bo.1.fastq \
+-fq2 ${j}/MAP/${i}_AX_unmap_bo.2.fastq
+
+#########################
+# Remove temp files
+#########################
+
+rm ${j}/MAP/${i}_AX_paired_bo.bam
+rm ${j}/MAP/${i}_AX_unmap_unmap_bo.bam
+rm ${j}/MAP/${i}_AX_unmap_unmap_bo.sort
+
+#######################################################################
+#######################   Remove human reads   ########################
+#######################################################################
+
+#########################
+# Map to human genome
+#########################
+
+bowtie2 --sensitive --dovetail \
+-p 20 \
+-x genomes_ref/HU \
+-1 ${j}/MAP/${i}_AX_unmap_bo.1.fastq \
+-2 ${j}/MAP/${i}_AX_unmap_bo.2.fastq \
+-S ${j}/MAP/${i}_HU_paired_bo.sam
+
+#########################
+# Convert SAM to BAM
+#########################
+
+samtools view -bS \
+${j}/MAP/${i}_HU_paired_bo.sam \
+> ${j}/MAP/${i}_HU_paired_bo.bam
+
+#########################
+# Keep unmapped pairs
+#########################
+
+samtools view -u -f 12 -F 256 \
+${j}/MAP/${i}_HU_paired_bo.bam \
+> ${j}/MAP/${i}_HU_unmap_unmap_bo.bam
+
+#########################
+# Sort by read name
+#########################
+
+samtools sort -n \
+${j}/MAP/${i}_HU_unmap_unmap_bo.bam \
+-o ${j}/MAP/${i}_HU_unmap_unmap_bo.sort
+
+#########################
+# Save statistics
+#########################
+
+echo "$i" >> ${j}/MAP/Stats_HU_bo.txt
+samtools flagstat \
+${j}/MAP/${i}_HU_unmap_unmap_bo.sort \
+>> ${j}/MAP/Stats_HU_bo.txt
+
+#########################
+# Recover FASTQ pairs
+#########################
+
+bamToFastq \
+-i ${j}/MAP/${i}_HU_unmap_unmap_bo.sort \
+-fq ${j}/MAP/${i}_HU_unmap_bo.1.fastq \
+-fq2 ${j}/MAP/${i}_HU_unmap_bo.2.fastq
+
+#########################
+# Remove temp files
+#########################
+
+rm ${j}/MAP/${i}_HU_paired_bo.bam
+rm ${j}/MAP/${i}_HU_unmap_unmap_bo.bam
+rm ${j}/MAP/${i}_HU_unmap_unmap_bo.sort
+
+done
 done

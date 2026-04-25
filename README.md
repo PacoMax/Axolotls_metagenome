@@ -47,6 +47,13 @@ Programs used:
     `BING.sh`
 
 ## Step 6
+Run MAG_anot.sh to obtain annotations
 
+Programs used:
+* BUSCO version 5.1.2
+* GTDB-Tk version 2.1.1
+* dbCAN (run_dbcan) version 3
+* antiSMASH version 7
+* eggNOGmapper version 2.1.13
 
-
+    `MAG_anot.sh`

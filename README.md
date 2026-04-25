@@ -47,7 +47,7 @@ Programs used:
     `BING.sh`
 
 ## Step 6
-Run MAG_anot.sh to obtain annotations
+Run MAG_anot.sh to obtain bacterial MAG annotations
 
 Programs used:
 * BUSCO version 5.1.2
